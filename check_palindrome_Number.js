@@ -14,7 +14,7 @@ function CheckPlaindrome(num){
 
     }
    
-    if(sum == temp){
+    if(sum === temp){
         return true;
     }else{
         return false;
